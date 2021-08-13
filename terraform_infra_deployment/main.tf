@@ -1,10 +1,11 @@
 terraform {
   required_version = ">= 0.12"
-  backend "s3" {
-    bucket = "terraform-demo-sandip"
-    key = "terraform.tfstate"
-    region = "us-west-2"
-  }
+  # Uncomment only if you would like to use s3 as backend
+  # backend "s3" {
+  #   bucket = "terraform-demo-sandip"
+  #   key = "terraform.tfstate"
+  #   region = "us-west-2"
+  # }
 }
 
 provider "aws" {
