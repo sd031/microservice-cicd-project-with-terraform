@@ -35,14 +35,9 @@ variable "golang_project_repository_branch" {
   default     = "master"
 }
 
-variable "repository_owner" {
-  description = "CodeCommit repository owner"
-  default     = "Sandip Das"
-}
-
 variable "artifacts_bucket_name" {
   description = "S3 Bucket for storing artifacts"
-  default     = "sandip-cicd-artifacts-bucket"
+  default     = "your-project-name-cicd-artifacts-bucket"
 }
 
 variable "aws_ecs_cluster_name" {
