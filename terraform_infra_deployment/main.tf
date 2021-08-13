@@ -11,15 +11,15 @@ provider "aws" {
   region = var.aws_region
 }
 
-data "aws_codecommit_repository" "nodeapp_repo" {
-  repository_name = "nodeapp"
-}
-data "aws_codecommit_repository" "pythonapp_repo" {
-  repository_name = "pythonapp"
-}
-data "aws_codecommit_repository" "goapp_repo" {
-  repository_name = "goapp"
-}
+# data "aws_codecommit_repository" "nodeapp_repo" {
+#   repository_name = var.nodejs_project_repository_name
+# }
+# data "aws_codecommit_repository" "pythonapp_repo" {
+#   repository_name = var.python_project_repository_name
+# }
+# data "aws_codecommit_repository" "goapp_repo" {
+#   repository_name = var.golang_project_repository_name
+# }
 
 resource "aws_iam_role" "containerAppBuildProjectRole" {
   name = "containerAppBuildProjectRole"
