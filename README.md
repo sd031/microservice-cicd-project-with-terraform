@@ -19,8 +19,7 @@ This Project Designed and developed by [Sandip Das]
 
 This project uses many open source and few propertory projects to work properly:
 
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
+- [node.js](https://nodejs.org/en/about/) - evented I/O for the backend
 - [Python](https://www.python.org/) - Python is a programming language that lets you work quickly
 and integrate systems more effectively.
 - [Go Lang](https://go.dev/) - Go is an open source programming language supported by Google
