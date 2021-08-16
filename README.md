@@ -40,7 +40,7 @@ and integrate systems more effectively.
 [Building Microservices with AWS ECS + Application Load Balancer](https://www.youtube.com/watch?v=3Kr_455zMk4)
 After setting up ECS Clusters and services it's now time to use Terraform to setup CI/CD For the Cluster's services
 
-## Terraform INstructions
+## Terraform Instructions
 First make sure [AWS CLI is installed](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) and you have [configured authorization](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html) properly 
 After that:
 Initialize Terraform from the terraform project folder
