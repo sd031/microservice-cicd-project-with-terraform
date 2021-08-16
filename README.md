@@ -32,10 +32,15 @@ and integrate systems more effectively.
 ## Installation
 
 [Node.js Installation](https://nodejs.org/en/download/)
+
 [Python Installation](https://www.python.org/downloads/)
+
 [Go Installation](https://golang.org/doc/install)
+
 [Docker Installation](https://docs.docker.com/engine/install/)
+
 [Terraform Installation](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+
 
 ## Microservice Manual Setup instuctuctions
 
