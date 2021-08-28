@@ -2,7 +2,7 @@
 #   value = aws_elb.web.dns_name
 # }
 
-output "code_buil_project" {
+output "code_build_project" {
   value = aws_codebuild_project.containerAppBuild.arn
 }
 output "node_app_codepipeline_project" {
