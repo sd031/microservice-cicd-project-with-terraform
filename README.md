@@ -64,7 +64,7 @@ After initialization done, changes variable values you will find in variables.tf
 vi variables.tf
 ```
 
-After done with changing variables/parameters, and all set, it's time to do a DRY RU to see/verify what resources this will create
+After done with changing variables/parameters, and all set, it's time to do a DRY RUN to see/verify what resources this will create
 
 ```sh
 terraform plan
